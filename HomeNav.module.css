@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensures proper vertical alignment */
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo {
+    height: 50px;
+    align-self: flex-start; /* Ensures the logo is aligned to the left */
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 18px;
+    color: #7D0A0A;
+}
+
+.navLink {
+    font-size: 16px;
+    color: #7D0A0A;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.signOut {
+    font-size: 16px;
+    color: #7D0A0A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.userAvatar {
+    background-color: #EAD196;
+    color: #7D0A0A;
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
